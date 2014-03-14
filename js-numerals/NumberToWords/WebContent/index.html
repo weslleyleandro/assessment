@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script type="text/javascript" src="assets/js/main.js" ></script>
+</head>
+
+<body>
+	
+	<label for="numberInput">Type a number: </label>
+	
+	<input type="text" id="numberInput" onkeydown="return isNaN(event)" onkeyup="convert()">
+	
+	<input type="submit" value="Convert" onclick="convert()">
+	
+	<br/>
+	<span id="result"></span>
+</body>
+</html>
